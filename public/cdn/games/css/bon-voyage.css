@@ -1,0 +1,210 @@
+.clear { clear: both; }
+.hidden { display: none; }
+#holder .one-third { width: 33%; }
+#holder { margin: 50px auto 0; background-color: #000; width: 948px; height: 520px; position: relative;  font-family: 'Press Start 2P', cursive; }
+#holder > div { background-color: #000;
+    color: #fff; box-sizing: border-box; -moz-box-sizing: border-box;
+    width: 100%; padding: 4px 6px; position: absolute; top: 0;
+    left: 0; height: 100%; }
+#holder p {
+    font-size: 10px;
+    color: #0e90d2;
+}
+#holder h3 {
+    margin-bottom: 10px;
+}
+.tbl-ships {
+    font-size: 7px; color: #99f; margin-top: 20px;
+}
+.tbl-ships > tbody > tr > td {
+    width: 8.3%; text-align: center; min-width: 76px;
+}
+.tbl-ships td .name {
+    margin: 0 auto;
+    display: block; height: 26px; vertical-align: middle;
+    clear: both; font-size: 8px;
+}
+.tbl-ships td img {
+    display: block; margin: 0 auto 6px;
+    clear: both;
+}
+.tbl-ships td span {
+    text-align: center; padding-bottom: 4px;
+    display: inline-block; font-size: 8px;
+}
+.tbl-ships td small {
+    display: block;
+    clear: both;
+    font-size: 7px;
+}
+.mini-buttons {
+    width: 54px;
+    margin: 0 auto;
+}
+#holder .mini-buttons button {
+    width: 26px;
+    height: 16px;
+    font-size: 8px;
+    padding: 0;
+    margin-top: 1px; margin-right: 0;
+    text-align: center; line-height: 16px;
+}
+#holder .tbl-ships-space .mini-buttons button {
+    width: 53px;
+}
+
+.tbl-resources {
+    width: 100%;font-size: 8px;
+}
+.tbl-resources th {
+    text-align: left; width: 50%;
+    line-height: 20px;
+}
+.tbl-resources td {
+    color: #dbb500; text-align: left;
+    line-height: 20px;
+}
+.half {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.tbl-active-ships {
+    width: 100%;
+}
+.tbl-active-ships td {
+    font-size: 8px;
+}
+.resource-fleet {
+    height:14px;
+    display: inline-block;
+    width: 60px;
+    color: #000;
+}
+#holder button {
+    border: 1px solid #3d3d3d; font-family: 'Press Start 2P', cursive; font-size: 10px;
+    padding: 6px 8px; background-color: #000; margin-top: 8px;
+    margin-right: 6px;
+}
+#holder button:hover {
+    background-color: #adadad;
+}
+#holder .action-red {
+    margin-top: 8px; border: 0 none;
+    color: #fff;
+    background-color: red;
+}
+#holder .action-red:hover {
+    background-color: #edb800;
+}
+.techs-nav {
+    position: absolute; top: 0;
+    right: 0;}
+.techs-nav td {
+    line-height: 20px;
+}
+.techs-nav table {
+    font-size:8px
+}
+
+.current_capacity {
+    color: #73cafd;
+}
+.slow_down {
+    color: #8A2BE2;
+}
+#time-events {
+    background-color: #edd;
+    box-sizing: border-box;
+    font-size: 8px;
+    height: 144px;
+    overflow: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 370px;
+    margin: 0;
+}
+.space-map-container {
+    position: relative;
+    overflow: auto;
+}
+.space-map {
+    background-color: #061a54;
+    border: 0 none;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Press Start 2P",cursive;
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 0;
+    padding: 1px 2px;
+    width: 550px;
+}
+#fleet {
+    position: absolute;
+    top: 63px;
+    left: 2px;
+}
+#fleet, .space-map span {
+    font-family: "Press Start 2P",cursive;
+}
+.bottom-menu {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.bottom-menu span {
+    display: inline-block;
+    top: 5px;
+    position: relative;
+    padding-right: 5px;
+}
+#holder .one-fourth {
+    width: 25%;
+}
+#holder .one-fifth {
+    width: 20%;
+}
+.market-resources {
+    width: 600px; text-align: center;
+    margin: 0 auto;
+}
+.market-resources > tbody > tr > td {
+    width: 33%; text-align: center;
+}
+.mid-buttons {
+    margin: 0 auto; font-size: 8px;
+    width: 80px; text-align: center
+}
+#holder .mid-buttons button {
+    font-size: 8px;
+    height: 20px;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+.event-resources {
+    margin: 0 auto;
+    text-align: center;
+}
+.event-resources li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    margin: 0 7px;
+    padding: 0;
+    font-size: 12px;
+}
+.event-resources li.hidden-item {
+    display: none;
+}
+.mini-techs-table {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    margin-bottom: 10px; margin-top: 10px;
+}
+.mini-techs-table  tr td{
+    font-size: 9px;
+    line-height:20px;
+}

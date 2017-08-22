@@ -1,0 +1,9 @@
+# robotstxt.org/
+
+#FACEBOOK: https://www.facebook.com/ogniter
+#TWITTER: https://www.twitter.com/Ogniter
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /site/language/
+Disallow: /site/theme/
