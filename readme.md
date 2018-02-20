@@ -4,8 +4,6 @@ You can install the default countries with the following command:
 
 `php artisan ogame:update-communities`
 
-https://github.com/dlaynes/Ogniter/blob/master/app/Ogniter/Api/Remote/Ogame/Command/UpdateCommunities.php
-
 Please take a look at the other registered commands of the project
 
 For more information about the website installation, please see this thread
